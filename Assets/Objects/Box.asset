@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142d1a8bc16859549a186e76884e437c, type: 3}
+  m_Name: Box
+  m_EditorClassIdentifier: 
+  name: Box
+  itemTexture: {fileID: 2800000, guid: 583cfe772b37dff40aede6603365c8ae, type: 3}
+  prefab: {fileID: 8907555294163199318, guid: 731868d9d6b981d428cd9b45c697ad75, type: 3}

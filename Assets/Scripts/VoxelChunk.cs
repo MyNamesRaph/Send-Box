@@ -64,7 +64,7 @@ public class VoxelChunk : MonoBehaviour
                 {
                     float value = GetSimplex3DAt(x + offsetX, y + offsetY, z + offsetZ) * amplification;
                     value += GetSimplex2DAt(x + offsetX, z + offsetZ) * HeightAmplification;
-                    if (/*y < height * 0.5 + value*/ value >= 0 )
+                    if (y < height * 0.5 + value )
                     {
                         GameObject cubeInstance = Instantiate(cube);
                         cubeInstance.transform.SetParent(transform);
